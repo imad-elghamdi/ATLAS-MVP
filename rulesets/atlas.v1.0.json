@@ -1,0 +1,37 @@
+{
+  "version": "v1.0",
+  "thresholds": {
+    "score_gate": {
+      "block_lt": 65,
+      "review_lt": 75,
+      "pass_lt": 85
+    }
+  },
+  "weights": {
+    "A": 0.25,
+    "B": 0.2,
+    "C": 0.2,
+    "D": 0.15,
+    "E": 0.1,
+    "F": 0.1
+  },
+  "similarity": {
+    "high_pre": 0.86,
+    "high_post": 0.86,
+    "medium_low": 0.75,
+    "medium_high": 0.85,
+    "intent_overlap_reinforce": 0.7
+  },
+  "generic": {
+    "generic_block": 0.75,
+    "generic_review_low": 0.55,
+    "filler_warn": 0.2,
+    "filler_block_candidate": 0.35
+  },
+  "ecosystem": {
+    "theme_fit_block": 0.45
+  },
+  "cluster": {
+    "default_hard_cap": false
+  }
+}
