@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { pool } from "../db/client";
-import { logger } from "../logger";
+import logger from "../logger";
 
 async function main() {
   const sqlPath = resolve(process.cwd(), "migrations/001_atlas_v1.sql");

@@ -1,5 +1,5 @@
 import request from "supertest";
-import { createApp } from "../src/app";
+import createApp from "../src/app";
 
 test("GET /v1/rulesets/current returns v1.0", async () => {
   const app = createApp();

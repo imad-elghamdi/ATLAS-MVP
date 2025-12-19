@@ -1,7 +1,7 @@
 import type { NextFunction, Request, Response } from "express";
 import crypto from "crypto";
 import { Errors, AppError } from "./errors";
-import { logger } from "../logger";
+import logger from "../logger";
 import { config } from "../config";
 
 export function requestContext(req: Request, res: Response, next: NextFunction) {

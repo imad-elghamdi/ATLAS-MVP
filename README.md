@@ -204,3 +204,20 @@ curl "http://localhost:3000/v1/atlas/events?site_id=SITE_ID&limit=50" \
 
 - Ce repo est un MVP backend : la similarité `top_matches` est fournie à l’API (pas de vector DB dans ce scope).
 - Les décisions sont **explicables** via `flags` + `reasons` et auditées via `atlas_events`.
+{
+    "id": "f624638e-df2f-4b7a-b2e9-802faf7dd82e",
+    "site_id": "e3a352fe-fc06-4246-a38a-c289e8576ed3",
+    "url": "https://example.com/blog/panama-4x4",
+    "slug": "panama-4x4",
+    "title": "Ford Panama 4x4 : guide complet",
+    "h1": "Ford Panama 4x4 : guide complet",
+    "status": "live",
+    "last_modified_at": null,
+    "cluster_id": null,
+    "role": "pillar",
+    "primary_intent": "comparative",
+    "topic_key": "ford-panama-4x4__comparative__fr-fr",
+    "embedding_ref": null,
+    "embedding_hash": null,
+    "created_at": "2025-12-19T13:09:02.507Z"
+}
